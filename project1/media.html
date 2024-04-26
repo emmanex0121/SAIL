@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Images, Audio, Video</title>
+    <title>Images/Audio/Video</title>
   </head>
   <body>
     <img src="/assets/images/favicon.png" alt="favicon" />
@@ -22,9 +22,27 @@
       />
     </picture>
 
+    <!-- Render audio this way -->
+    <audio src="/assets/audios/audio1.mp3" controls autoplay></audio>
+
+    <!-- Orender Audio this way -->
+    <audio controls autoplay>
+      <source src="/assets/audios/audio1.mp3" type="audio/mp3" />
+    </audio>
+
     <!-- Rendering video allowing controls in the video and autoplay  -->
-    <video controls autoplay>
-        <source src="/assets/videos/Python-Website-Full-Tutorial.mp4">
+    <video controls width="370px">
+      <source
+        src="https://www.shutterstock.com/shutterstock/videos/1081513610/preview/stock-footage-two-diverse-business-men-discussing-financial-market-data-using-laptop-and-digital-tablet.webm"
+      />
     </video>
+
+    <!-- Can also render video this way -->
+    <video
+      src="https://www.shutterstock.com/shutterstock/videos/1080319025/preview/stock-footage-abstract-tech-earth-globalization-in-d-motion-graphic-concept-transmit-ai-networking-on-fiber.webm"
+      width="370px"
+      controls
+      autoplay
+    ></video>
   </body>
 </html>
