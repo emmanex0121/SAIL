@@ -11,31 +11,49 @@ nav a {
 }
 
 ul li {
-    /* list-style: none; */
+  /* list-style: none; */
   display: inline-block;
   width: 100px;
   height: 100px;
   background-color: brown;
 }
 
-
 .static {
-    position: static;
-    bottom: 200px;
+  position: static;
+  bottom: 200px;
 }
 
 .rel {
-    background-color: red;
+  background-color: red;
+  position: relative;
+  left: 200px;
+  bottom: 40px;
 }
 
 .abs {
-    background-color: yellow;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  /* bottom: 30px; */
 }
 
 .fix {
-    background-color: green;
+  background-color: green;
+  position: fixed;
+  bottom: 30px;
+  right: 100px;
 }
 
 .sti {
-    background-color: blue;
+  background-color: blue;
+  position: sticky;
+}
+
+button {
+    padding: 100px;
+    margin: 40px;
+    background-color: red;
+    position: sticky;
+    top: 100px;
 }
