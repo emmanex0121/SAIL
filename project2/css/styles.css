@@ -1,7 +1,57 @@
+/* importing a font from an external resoure */
+/* @import url();
+
+Importing a font from within the local machine
+@font-face {
+    font-family: ;
+    src: url();
+} */
+
 body {
   background-color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
-    text-decoration: overline;
+  text-decoration: overline;
+}
+
+.heading {
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  color: chartreuse;
+  font-size: 30px;
+  font-weight: 100;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::before {
+    content: "";
+    width: 0;
+    position: absolute;
+    top: 85px;
+    
+    transition: width 0.3s ease;
+}
+
+p:hover::before {
+    border: 1px solid black;
+    width: 30px;
+}
+
+li:active {
+    font-size: 5px;
+}
+
+p:active {
+    size: 5px;
+}
+
+input:focus {
+    background-color: black;
+    color: aliceblue;
 }
