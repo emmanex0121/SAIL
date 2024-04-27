@@ -43,7 +43,7 @@ p:hover::before {
     width: 30px;
 }
 
-li:active {
+ul li:active {
     font-size: 5px;
 }
 
@@ -54,4 +54,39 @@ p:active {
 input:focus {
     background-color: black;
     color: aliceblue;
+}
+
+
+ol li:first-child {
+    color: green;
+}
+
+ol li:nth-child(2n+3) {
+    color: blanchedalmond;
+}
+
+form button:disabled {
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+form button:enabled {
+    padding: 20px;
+    border-top: 50px;
+}
+
+.radio:checked {
+    accent-color: green;
+}
+
+.radio1:checked {
+    accent-color: purple;
+}
+
+input:valid {
+    border: 2px solid blue;
+}
+
+input:invalid {
+    border: 5px dashed red;
 }
