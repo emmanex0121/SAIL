@@ -11,8 +11,31 @@ nav a {
 }
 
 ul li {
+    /* list-style: none; */
   display: inline-block;
   width: 100px;
   height: 100px;
   background-color: brown;
+}
+
+
+.static {
+    position: static;
+    bottom: 200px;
+}
+
+.rel {
+    background-color: red;
+}
+
+.abs {
+    background-color: yellow;
+}
+
+.fix {
+    background-color: green;
+}
+
+.sti {
+    background-color: blue;
 }
