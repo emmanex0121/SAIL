@@ -3,4 +3,25 @@
     /* Does the same thing as the next line */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(4, 1fr);
+    background-color: gray;
+    padding: 15px;
+    gap: 10px;
+}
+
+.cal .grid {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.equal {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    /* OR */
+    /* grid-column-end: span 4; */
 }
