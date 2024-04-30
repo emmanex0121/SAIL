@@ -10,6 +10,7 @@
     height: 100px;
     text-align: center;
     line-height: 100px;
+    /* width: 100%; */
 }
 
 .header h1 {
@@ -18,7 +19,7 @@
 
 .nav_section {
     background-color: rgb(145, 210, 145);
-    /* width: 100%; */
+    width: 100%;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
@@ -28,4 +29,53 @@
     text-decoration: none;
     padding-right: 10px;
     color: white;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.content_left{
+    width: 25%;
+    /* margin-left: 10px; */
+    background-color: rgb(230, 248, 232);
+}
+
+.content_left nav a {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    margin:10px 0 0 20px;
+}
+
+.content_center {
+    width: 50%;
+    margin-left: 10px;
+    background-color: rgb(230, 248, 232);
+    padding: 10px;
+    text-align: justify;
+}
+
+.content_right {
+    width: 25%;
+    margin-left: 10px;
+    background-color: rgb(230, 248, 232);
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    /* padding-top: 35px; */
+    line-height: 80px;
+}
+
+.footer nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
 }
