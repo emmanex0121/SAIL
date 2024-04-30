@@ -25,3 +25,8 @@
     /* OR */
     /* grid-column-end: span 4; */
 }
+
+.two {
+    /* merging the second row */
+    grid-row-end: span 4;
+}
