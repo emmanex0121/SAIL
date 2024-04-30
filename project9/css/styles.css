@@ -1,0 +1,6 @@
+.cal {
+    display: grid;
+    /* Does the same thing as the next line */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+}
