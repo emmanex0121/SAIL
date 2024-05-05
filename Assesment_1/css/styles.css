@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: auto auto;
+  width: 100%;
+  height: 100vh;
+  padding-inline: 10%;
+  /* background-color: #e78f50; */
+  background-image: linear-gradient(
+    -45deg,
+    #ffad73 0%,
+    #ffad73 20%,
+    #f0cc8c 30%,
+    #f0cc8c 70%,
+    #ffad73 80%,
+    #ffad73 100%
+  );
+}
+
+/* .container { */
+  /* width: 100%;
+  height: 100vh; */
+
+  /* margin-left: 3px; */
+  /* padding-inline: 10%; */
+
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); */
+
+  
+
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-between; */
+/* } */
+
+header {
+  margin-top: 3vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  color: #752c17;
+  font-size: 3rem;
+}
+
+nav {
+  padding-left: 100px;
+  display: flex;
+  column-gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition: 0.3s ease-out;
+}
+nav a:hover {
+  color: #752c17;
+  font-size: 2rem;
+}
+
+.access_buttons {
+  display: flex;
+  gap: 30px;
+}
+.nav_home {
+  color: #752c17;
+}
+.button_sign-in,
+.button_get-started {
+  border: 1px solid #752c17;
+  border-radius: 8px;
+  padding: 5px 20px;
+  font-size: 10px;
+}
+.button_get-started {
+  color: #ffffff;
+  background-color: #752c17;
+
+  transition: 0.3s ease-in-out;
+}
+
+.button_sign-in {
+  background: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.button_sign-in:hover,
+.button_get-started:hover {
+  background-color: #ffad73;
+}
+
+/* THE MAIN BODY SECTION */
+.hero_content {
+  width: 100%;
+  /* margin-top: 9rem; */
+  padding-top: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.texts_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.texts_container h1{
+  font-size: 3rem;
+}
+.texts_container h1 span {
+  color: #752c17;
+}
+.texts_container p {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.input_area {
+  display: flex;
+  gap: 2rem;
+}
+.email_box {
+  width: 300px;
+  background: transparent;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.email_box::placeholder {
+  font-size: .8rem;
+}
+
+/* adding the background image */
+.background_image {
+  width: 100%;
+}
+
+.background_image img {
+  /* width: 400px; */
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  left: 5rem;
+}
