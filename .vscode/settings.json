@@ -1,3 +1,4 @@
 {
-  "gitlens.keymap": "chorded"
+  "gitlens.keymap": "chorded",
+  "liveServer.settings.port": 5501
 }
