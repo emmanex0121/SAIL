@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ios Calculator</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container_body">
+        <div class="container_input">
+            <input name="input_box" type="text" class="input_box" id="input-box" placeholder="0">
+        </div>
+        
+        <div class="container_row container_row-1">
+            <div class="operation_others" id="clear" onclick="clickMe('clear')">AC</div>
+            <div class="operation_others" id="plus_or_minus" onclick="clickMe('plus_minus')">
+                <div class="plus_or_minus-container">
+                    <p id="plus">+</p>
+                    <p id="slash">/</p>
+                    <p id="minus">-</p>
+                </div>
+            </div>
+            <div class="operation_others" id="percent" onclick="clickMe('percent')">&percnt;</div>
+            <div class="operator" id="division" onclick="clickMe('divide')">&div;</div>
+        </div>
+        <div class="container_row container_row-2">
+            <div class="number" id="number-7" onclick="clickMe(7)">7</div>
+            <div class="number" id="number-8" onclick="clickMe(8)">8</div>
+            <div class="number" id="number-9" onclick="clickMe(9)">9</div>
+            <div class="operator" id="multiplication" onclick="clickMe('multiply')">x</div>
+        </div>
+        <div class="container_row container_row-3">
+            <div class="number" id="number-4" onclick="clickMe(4)">4</div>
+            <div class="number" id="number-5" onclick="clickMe(5)">5</div>
+            <div class="number" id="number-6" onclick="clickMe(6)">6</div>
+            <div class="operator" id="subtraction" onclick="clickMe('subtract')">-</div>
+        </div>
+        <div class="container_row container_row-4">
+            <div class="number" id="number-1" onclick="clickMe(1)">1</div>
+            <div class="number" id="number-2" onclick="clickMe(2)">2</div>
+            <div class="number" id="number-3" onclick="clickMe(3)">3</div>
+            <div class="operator" id="addition" onclick="clickMe('add')">+</div>
+        </div>
+        <div class="container_row container_row-5">
+            <div class="number" id="number-0" onclick="clickMe(0)">0</div>
+            <div class="number" id="number-dot" onclick="clickMe('.')">.</div>
+            <div class="operator" id="equals" onclick="clickMe('equals')">=</div>
+        </div>
+    </div>
+
+    <script src="/js/scripts.js" type="text/javascript"></script>
+</body>
+</html>
