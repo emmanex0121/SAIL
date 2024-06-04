@@ -151,7 +151,7 @@ body {
 
 .dashboard_contents {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -200,7 +200,10 @@ body {
 }
 
 .activity_details td {
-  padding: 1rem 3rem;
+  padding-block: 1rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  margin-right: 10rem;
 }
 
 @media only screen and (min-width: 1450px) {
